@@ -1,6 +1,6 @@
 import axios from 'axios'
 export default()=>{
     return axios.create({
-        baseURL:`https://servers-petkart.herokuapp.com/`
+        baseURL:`https://backendpetkart.herokuapp.com/`
     })
 }
